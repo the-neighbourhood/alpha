@@ -1,0 +1,32 @@
+# name: Scheduled Updates from Discord to Notion
+
+# on:
+#   schedule:
+#     # Runs every hour (you can adjust this as needed)
+#     - cron: '0 * * * *'
+
+# jobs:
+#   update-notion:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       # Check out your repository
+#       - name: Check out repo
+#         uses: actions/checkout@v2
+      
+#       # Set up Node.js
+#       - name: Set up Node.js
+#         uses: actions/setup-node@v2
+#         with:
+#           node-version: '14'
+      
+#       # Install dependencies
+#       - name: Install dependencies
+#         run: npm ci
+      
+#       # Run your script
+#       - name: Run update script
+#         run: node path-to-your-script.js
+#         env:
+#           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+#           NOTION_INTEGRATION_TOKEN: ${{ secrets.NOTION_INTEGRATION_TOKEN }}

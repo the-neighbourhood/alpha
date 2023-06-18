@@ -18,6 +18,11 @@
   },
   "homepage": "https://theneighbourhood.dev",
   "devDependencies": {
+    "dotenv": "^16.3.1",
     "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.5",
+    "discord.js": "^14.11.0"
   }
 }
