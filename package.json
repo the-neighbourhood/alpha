@@ -1,0 +1,23 @@
+{
+  "name": "alpha",
+  "version": "1.0.0",
+  "description": "The Neighbourhood community bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-neighbourhood/alpha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the-neighbourhood/alpha/issues"
+  },
+  "homepage": "https://theneighbourhood.dev",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
